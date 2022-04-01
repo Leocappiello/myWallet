@@ -1,0 +1,8 @@
+# node modules
+node_modules
+
+# template of original page
+indexOriginal.html
+
+#dist
+dist

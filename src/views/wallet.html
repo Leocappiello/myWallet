@@ -1,0 +1,66 @@
+<div class="row d-flex justify-content-center">
+    <!-- Banner -->
+    <div class="banner d-flex align-items-center dark" id="banner">
+        <div class="title text-start">
+            <div class="img-banner d-flex">
+                <img class="img" src="../img/wallet.png" alt="">
+                <h4 class="m-0 head-title">MyWallet</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Form -->
+    <form class="login px-0 w-75 dark animate__animated animate__backInLeft">
+
+        <div class="text-center welcome">
+            <h4 class="py-4 my-0">Bienvenido</h4>
+        </div>
+
+        <!-- nav -->
+        <nav>
+            <div class="nav nav-tabs flex-row mx-auto pt-2 dark" id="nav-tab" role="tablist">
+                <a class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" href="#nav-home" role="tab"
+                    aria-controls="nav-home" aria-selected="true">Inicio</a>
+                <a class="nav-link" id="nav-register-tab" data-bs-toggle="tab" href="#nav-register" role="tab"
+                    aria-controls="nav-register" aria-selected="false">Registrarse</a>
+            </div>
+        </nav>
+
+        <!--Content nav-->
+        <div class="tab-content mt-3 dark" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="d-flex flex-column align-items-center">
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="email"
+                        placeholder="&#xF007; Email o usuario"></input>
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="password"
+                        placeholder="&#xF023; Contraseña"></input>
+                    <div class="form-check w-50 mt-1">
+                        <input class="form-check-input dark" type="checkbox" id="checkbox">
+                        <label class="form-check-label mb-1" for="checkbox">
+                            Recordarme
+                        </label>
+                    </div>
+                    <div class="forget w-50 text-end">
+                        <a href="#/forget">Olvidaste tu contraseña? </a>
+                    </div>
+
+                    <a href="#/" class="text-white btn btn-primary py-2 px-4 my-3"><span>Ingresar &#xF054;</span></a>
+                    
+                </div>
+            </div>
+            <div class="tab-pane fade mt-3" id="nav-register" role="tabpanel" aria-labelledby="nav-register-tab">
+                <div class="d-flex flex-column align-items-center">
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="email"
+                        placeholder="&#xf2bb; Nombre y apellido"></input>
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="email" placeholder="&#xf1fa; Email"></input>
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="email" placeholder="&#xF007; Usuario"></input>
+                    <input class="mb-2 w-50 rounded-3 py-1 px-2 dark" type="password"
+                        placeholder="&#xF023; Contraseña"></input>
+
+                    <a href="#/register" class="text-white btn btn-primary py-2 px-4 my-3"><span>Registrarse &#xF054;</span></a>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</div>
